@@ -147,3 +147,41 @@ body {
   -ms-border-radius: 4.8rem;
   -o-border-radius: 4.8rem;
 }
+.user-overview-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 11.6rem;
+  background-color: var(--secondary-c);
+  padding: 5rem 0;
+  border-radius: 2.4rem;
+  -webkit-border-radius: 2.4rem;
+  -moz-border-radius: 2.4rem;
+  -ms-border-radius: 2.4rem;
+  -o-border-radius: 2.4rem;
+}
+
+.overview-title {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+.overview-container {
+  display: flex;
+  gap: 15.8rem;
+}
+
+.overview-div {
+  text-align: center;
+}
+
+.overview-div h2 {
+  font-size: 8rem;
+  color: var(--primary-c);
+}
+
+.overview-div p {
+  font-size: 2rem;
+  color: var(--dark-2);
+}
