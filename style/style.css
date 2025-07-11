@@ -185,3 +185,117 @@ body {
   font-size: 2rem;
   color: var(--dark-2);
 }
+.users-feedback-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 11.6rem;
+}
+
+.feedback-title {
+  font-size: 4.2rem;
+  font-weight:  700;
+  margin-bottom: 5rem;
+}
+
+.feedback-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.feedback-star img {
+  width: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.feedback-div {
+  border: .1rem solid var(--strock-c);
+  border-radius: 1.4rem;
+  -webkit-border-radius: 1.4rem;
+  -moz-border-radius: 1.4rem;
+  -ms-border-radius: 1.4rem;
+  -o-border-radius: 1.4rem;
+  padding: 2.4rem;
+  background-color: #ffffff50;
+}
+
+.feedback-div h4 {
+  font-size: 2.4rem;
+  margin-bottom: .4rem;
+}
+
+.feedback-div p {
+  font-size: 1.6rem;
+  color: var(--dark-3);
+  margin-bottom: 1.4rem;
+}
+
+.user-profile {
+  display: flex;
+}
+
+.user-profile img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: .6rem;
+}
+
+.user-name h5 {
+  font-size: 1.6rem;
+  color: var(--dark-4);
+}
+
+.user-name p {
+  font-size: 1.6rem;
+  color: var(--dark-5);
+}
+
+/* styling code for trial section */
+.trial-section {
+  text-align: center;
+  padding: 7rem;
+  background-color: white;
+  border-radius: 1.4rem;
+  -webkit-border-radius: 1.4rem;
+  -moz-border-radius: 1.4rem;
+  -ms-border-radius: 1.4rem;
+  -o-border-radius: 1.4rem;
+  margin-bottom: 11.6rem;
+}
+
+.trial-section h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.trial-section p {
+  font-size: 1.6rem;
+  color: var(--dark-6);
+  margin-bottom: 2rem;
+}
+
+.trial-btn {
+  margin-bottom: 2rem;
+}
+
+.trial-section img {
+  border-radius: 1.4rem;
+  -webkit-border-radius: 1.4rem;
+  -moz-border-radius: 1.4rem;
+  -ms-border-radius: 1.4rem;
+  -o-border-radius: 1.4rem;
+  /* width: 8%%; */
+  /* padding: 0 5rem; */
+}
+
+.trial-container {
+  width: 50%;
+  background-color: red;
+}
